@@ -8,6 +8,7 @@ body {
     padding: 10px 30px;
     border: 10px 40px;
     margin: 20px 80px;
+    background-color: rgb(43, 122, 45);
 }
 
 /* Heading Styles */
@@ -35,6 +36,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
+    background-color: lemonchiffon;
 }
 nav > ul {
     list-style-type: none;
@@ -49,7 +51,7 @@ nav a:visited {
 }
 nav a:hover,
 nav a:active {
-    color: rgb(8, 2, 70);
+    color: rgb(3, 21, 184);
 }
 header > nav {
 	display: table;
@@ -71,10 +73,18 @@ header > nav > ul > li {
 
 
 /* Section Styles */
+.leftcol {
+    padding: 10px;
+    box-align: left;
+    text-align: left;
+}
+.rightcol {
+    padding: 10px;
+    box-align: right;
+    text-align: right;
+}
 
-
-
-/* Artilce Styles */
+/* Article Styles */
 
 
 
