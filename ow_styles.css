@@ -4,6 +4,11 @@ header {
     font-size: 50px;
     text-align: center;
 }
+body {
+    padding: 10px 30px;
+    border: 10px 40px;
+    margin: 20px 80px;
+}
 
 /* Heading Styles */
 
@@ -11,6 +16,12 @@ header {
 
 
 /* Structural Styles */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 
 
@@ -31,11 +42,28 @@ nav > ul {
 nav a {
     text-decoration: none;
 }
-
-
-/* List Styles */
-
-
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover,
+nav a:active {
+    color: rgb(8, 2, 70);
+}
+header > nav {
+	display: table;
+	width: 100%;
+}
+header > nav > ul {
+	display: table-row;
+    list-style-type: none;
+    text-align: center;
+}
+header > nav > ul > li {
+	display: table-cell;
+	text-align: center;
+}
 
 /* Outline Styles */
 
