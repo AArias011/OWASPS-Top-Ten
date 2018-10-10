@@ -15,6 +15,10 @@ html {
     background-color: rgba(255, 230, 0, 0.582)
 }
 
+body>ol>p {
+    font-size: 16.5px;
+}
+
 
 /* Heading Styles */
 
