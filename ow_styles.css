@@ -9,12 +9,12 @@ body {
     padding: 20px 30px;
     border: 20px 40px;
     margin: 20px 80px;
-    background-color: rgba(255, 230, 0, 0.582)
 }
 
 html {
-    background-color: white;
+    background-color: rgba(255, 230, 0, 0.582)
 }
+
 
 /* Heading Styles */
 
