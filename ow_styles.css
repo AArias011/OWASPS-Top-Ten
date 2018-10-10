@@ -9,14 +9,21 @@ body {
     padding: 20px 30px;
     border: 20px 40px;
     margin: 20px 80px;
+    background-color: rgba(255, 230, 0, 0.582);
 }
 
 html {
-    background-color: rgba(255, 230, 0, 0.582)
+    background-color: white;
 }
 
 body>ol>p {
-    font-size: 16.5px;
+    font-size: 18px;
+}
+
+body>p {}
+
+h2 {
+    font-size: 25px;
 }
 
 
