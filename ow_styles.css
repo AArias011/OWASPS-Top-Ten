@@ -20,28 +20,34 @@ body>ol>p {
     font-size: 18px;
 }
 
-body>p {
-    
-}
-
 article>h1 {
     text-align: center;
-    font-size: 27px;
+    font-size: 29px;
 }
 
 article>p {
     font-size: 18px;
+    text-align: center;
+}
+
+article>p>a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article p a:link,
+article p a:visited {
+text-decoration: none;
+color: rgb(5, 5, 5);
+}
+
+article p a:hover,
+article p a:active {
+    color: white;
 }
 
 h2 {
     font-size: 25px;
 }
-
-
-/* Heading Styles */
-
-
-
 
 /* Structural Styles */
 .center {
@@ -51,22 +57,12 @@ h2 {
     width: 50%;
 }
 
-section#leftcol img {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 body {
     margin: 0 auto;
     width: 100%;
     max-width: 1020px;
     min-width: 640px;
 }
-
-
-/* Aside and Blockquote Styles */
-
-
 
 /* Navigation Styles */
 nav {
@@ -110,28 +106,3 @@ header>nav>ul>li {
     display: table-cell;
     text-align: center;
 }
-
-/* Outline Styles */
-
-
-
-
-/* Section Styles */
-.leftcol {
-    padding: 10px;
-    box-align: left;
-    text-align: left;
-}
-
-.rightcol {
-    padding: 10px;
-    box-align: right;
-    text-align: right;
-}
-
-/* Article Styles */
-
-
-
-
-/* Footer Styles */
