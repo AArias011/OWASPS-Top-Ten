@@ -51,15 +51,21 @@
         <h2>
             <li>XML External Entities (XXE)</li>
         </h2>
-        <p>XML External Entities, or XXE, attack against web apps that analyze (XML) input. </p>
+        <p>XML External Entities, or XXE, attack against web apps that analyze (XML) input. The attacks happen when the
+            web apps accept XML uploads from untrusted sources. One way that the programs can become susceptible to XXE
+            attacks is if it uses SOAP prior to the specific version. Some ways to prevent these attacks are for the
+            web app to use less complex formats and to avoid serialization of sensitive data. A second prevention act
+            is to Patch and upgrade XML processors and libraries used by the application or underlying operating
+            system.</p>
         <h2>
             <li>Broken Access Control</li>
         </h2>
-        <p>Injections are when untrusted data is tranfered to a code interpreter and placed in a web application.
-            Injections occur when code is not validated or filtered. When they occur, hostile data corrupts the
-            application and records sensitive data and records. Some ways to prevent Injections are to keep data
-            seperate from commands and questions and/or to use a safe API. Being oblivious to them can result in data
-            loss, corruption, & disclusure to unauthorized parties.</p>
+        <p>Broken Access Control refers to a system that controls access to inormation or functionality. The ways that
+            BAC can occur is by bypassing th access control checks by modifying the URL, internal app, state, or the
+            HTML page. They can also use metadate manipluations, relaying and tampering with a JSON web tokem, access
+            control token, or a cookie used to manipulate priviledges. Some ways to prevent this is by denying the
+            default with exceptions to public resources and for unique application business requirements be met by
+            enforced domain models.</p>
         <h2>
             <li>Security Misconfiguration</li>
         </h2>
