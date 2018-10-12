@@ -1,62 +1,64 @@
 /* HTML and Body Styles */
+/* This sets the font family, font size and aligns the text to the center of the header. */
 header {
     font-family: 'Notable', sans-serif;
     font-size: 50px;
     text-align: center;
 }
-
+/* This set the padding, border, margin and background color to the body of the rendered page.*/
 body {
     padding: 20px 30px;
     border: 20px 40px;
     margin: 20px 80px;
     background-color: rgba(255, 230, 0, 0.582);
 }
-
+/* This sets the background color of the html to white. */
 html {
     background-color: white;
 }
-
+/* This sets the font size to the paragraphs thats in the ordered lists thats in the body. */
 body>ol>p {
     font-size: 18px;
 }
-
+/* This aligns the text to the center and sets the font size of the h1 that is in the article.  */
 article>h1 {
     text-align: center;
     font-size: 29px;
 }
-
+/* This aligns the text to the center and sets the font size of the paragraph that is in the article.  */
 article>p {
     font-size: 18px;
     text-align: center;
 }
-
+/* This sets the font family to the hypertext link thats in the paragraph thats in the article. */
 article>p>a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/* This makes the hypertext links a color of black and it makes it have no underlines. */
 article p a:link,
 article p a:visited {
 text-decoration: none;
 color: rgb(5, 5, 5);
 }
-
+/* This sets the hypertext links color to white when you hover over them on the website. */
 article p a:hover,
 article p a:active {
     color: white;
 }
-
+/* This sets the h2 to a certain font size */
 h2 {
     font-size: 25px;
 }
 
 /* Structural Styles */
+/* This sets the display, margin and width. */
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
+/* This sets the margin, width of the body. */
 body {
     margin: 0 auto;
     width: 100%;
@@ -65,43 +67,44 @@ body {
 }
 
 /* Navigation Styles */
+/* This sets the font family, font size and background color of the nav on the rendered page. */
 nav {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-align: center;
     background-color: rgb(0, 0, 0);
 }
-
+/* This gives the unordered lists of the nav to have no style type. */
 nav>ul {
     list-style-type: none;
 }
-
+/* This sets the nav to have no decoration */
 nav a {
     text-decoration: none;
 }
-
+/* This makes the nav a color of black and it makes it have no underlines. */
 nav a:link,
 nav a:visited {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-
+/* This sets the nav color to yellow when you hover over them on the website. */
 nav a:hover,
 nav a:active {
     color: rgb(255, 230, 0);
 }
-
+/* This sets the nav thats in the header to a display of table and width of 100% */
 header>nav {
     display: table;
     width: 100%;
 }
-
+/* This sets the unordered list thats in the nav thats in the header to have a certain display, style type and alignment. */
 header>nav>ul {
     display: table-row;
     list-style-type: none;
     text-align: center;
 }
-
+/* This sets the list thats in the unordered list thats in the nav thats in the header to have a certain display and text alignment. */
 header>nav>ul>li {
     display: table-cell;
     text-align: center;
